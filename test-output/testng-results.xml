@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I navigate to Orange HRM page (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I log in with admin credential (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should be able to see my user info on the right side of the screen. (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I navigate to Orange HRM page (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I log in with admin credential (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should be able to see my user info on the right side of the screen. (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should be able to click on PIM and see &#x27;Add Employee&#x27; text on the page (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should be able to fill up the information for my user (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see the new employee get created on the page with employee&#x27;s detail displayed on the page (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20501" started-at="2018-03-06T01:52:02Z" finished-at="2018-03-06T01:52:22Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPackage.TestRunner@73ad2d6]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="20501" started-at="2018-03-06T01:52:02Z" finished-at="2018-03-06T01:52:22Z">
+      <class name="RunnerPackage.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunnerPackage.TestRunner@73ad2d6]" name="setUpClass" is-config="true" duration-ms="296" started-at="2018-03-06T01:52:02Z" finished-at="2018-03-06T01:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:RunnerPackage.TestRunner@73ad2d6]" name="SetUp" is-config="true" duration-ms="5776" started-at="2018-03-06T01:52:02Z" finished-at="2018-03-06T01:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPackage.TestRunner@73ad2d6]" name="runScenario" duration-ms="3061" started-at="2018-03-06T01:52:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-06T01:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an Admin user for OrangeHRM, I should be able to log in to OrangeHRM and see the user log in information on the right side of the page."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This is to test OrangeHRM Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I navigate to Orange HRM page (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I log in with admin credential (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should be able to see my user info on the right side of the screen. (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:RunnerPackage.TestRunner@73ad2d6]" name="SetUp" is-config="true" duration-ms="3255" started-at="2018-03-06T01:52:11Z" finished-at="2018-03-06T01:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPackage.TestRunner@73ad2d6]" name="runScenario" duration-ms="8042" started-at="2018-03-06T01:52:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-06T01:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an Admin user for OrangeHRM, I should be able to log in to OrangeHRM and add a employee by going to PIM and click on employee list."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This is to test OrangeHRM Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I navigate to Orange HRM page (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I log in with admin credential (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should be able to see my user info on the right side of the screen. (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should be able to click on PIM and see &#x27;Add Employee&#x27; text on the page (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should be able to fill up the information for my user (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see the new employee get created on the page with employee&#x27;s detail displayed on the page (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunnerPackage.TestRunner@73ad2d6]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2018-03-06T01:52:22Z" finished-at="2018-03-06T01:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunnerPackage.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
